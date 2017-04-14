@@ -11,7 +11,7 @@
     <meta http-equiv="Cache-Control" content="no-cache"> 
     <meta http-equiv="Expires" content="Sat, 01 Dec 2001 00:00:00 GMT">
     
-    <title>Nhom 7- Sang Thu 7</title>
+    <title>Nhom 17- Sang Thu 7</title>
     
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
      <link href="static/css/style.css" rel="stylesheet">
