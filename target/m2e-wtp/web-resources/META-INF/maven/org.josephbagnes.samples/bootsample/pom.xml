@@ -41,10 +41,5 @@
 	</dependencies>
 	<build>
 		<finalName>bootsample</finalName>
-		<plugin>
-			<groupId>com.google.cloud.tools</groupId>
-			<artifactId>appengine-maven-plugin</artifactId>
-			<version>1.2.1</version>
-      		</plugin>
 	</build>
 </project>
