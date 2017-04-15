@@ -15,7 +15,11 @@
     
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
      <link href="static/css/style.css" rel="stylesheet">
-    
+    <!-- include summernote css/js-->
+<link
+	href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.css"
+	rel="stylesheet">
+
     <!--[if lt IE 9]>
 		<script src="static/js/html5shiv.min.js"></script>
 		<script src="static/js/respond.min.js"></script>
@@ -88,7 +92,7 @@
 					<div class="form-group">
 						<label class="control-label col-md-3">Content</label>
 						<div class="col-md-7">
-							<textarea class="form-control" id="content" name="content" >${task.content}</textarea>
+							<textarea id="input-content" class="form-control"  name="content" >${task.content}</textarea>
 						</div>				
 					</div>
 					<div class="form-group">
@@ -99,11 +103,23 @@
 		</c:when>		
 	</c:choose>
 	
-<script src="<c:url value="ckeditor/ckeditor.js" />"></script>
-<script type="text/javascript" language="javascript">
+<%-- <script src="<c:url value="ckeditor/ckeditor.js" />"></script> --%>
+<!-- <script type="text/javascript" language="javascript">
    CKEDITOR.replace('content', {width: '700px',height: '300px'});
-</script>
+</script> -->
 	<script src="static/js/jquery-1.11.1.min.js"></script>    
     <script src="static/js/bootstrap.min.js"></script>
+    <script
+	src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.js"></script>
+    <script>
+		$(document).ready(function() {
+			$('#input-content').summernote({
+				  height: 200,                 // set editor height
+				  minHeight: null,             // set minimum height of editor
+				  maxHeight: null,             // set maximum height of editor
+				  focus: false                  // set focus to editable area after initializing summe
+			});
+		});
+	</script>
 </body>
 </html>
