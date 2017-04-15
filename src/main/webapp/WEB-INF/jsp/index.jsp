@@ -17,7 +17,7 @@
      <link href="static/css/style.css" rel="stylesheet">
     <!-- include summernote css/js-->
 <link
-	href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.css"
+	href="static/summernote-0.8.3-dist/dist/summernote.css"
 	rel="stylesheet">
 
     <!--[if lt IE 9]>
@@ -105,7 +105,7 @@
 	<script src="static/js/jquery-1.11.1.min.js"></script>    
     <script src="static/js/bootstrap.min.js"></script>
     <script
-	src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.js"></script>
+	src="static/summernote-0.8.3-dist/dist/summernote.min.js"></script>
     <script>
 		$(document).ready(function() {
 			$('#input-content').summernote({
