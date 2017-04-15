@@ -102,11 +102,7 @@
 			</div>
 		</c:when>		
 	</c:choose>
-	
-<%-- <script src="<c:url value="ckeditor/ckeditor.js" />"></script> --%>
-<!-- <script type="text/javascript" language="javascript">
-   CKEDITOR.replace('content', {width: '700px',height: '300px'});
-</script> -->
+
 	<script src="static/js/jquery-1.11.1.min.js"></script>    
     <script src="static/js/bootstrap.min.js"></script>
     <script
