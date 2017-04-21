@@ -14,9 +14,6 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-	</properties>
-	
-	 <properties>
         <appengine.app.version>1</appengine.app.version>
         <appengine.sdk.version>1.9.48</appengine.sdk.version>
 
@@ -24,8 +21,9 @@
         <guava.version>18.0</guava.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-
+	</properties>
+	
+	
     <prerequisites>
         <maven>3.1.0</maven>
     </prerequisites>
